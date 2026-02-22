@@ -1,0 +1,15 @@
+node_modules/
+
+# 빌드 결과물
+dist/
+build/
+
+# 환경 변수 (보안)
+.env
+.env.local
+
+# 맥 시스템 파일
+.DS_Store
+
+# 로그 파일
+*.log
