@@ -26,4 +26,4 @@ let empty = null;    // 아무것도 없는 상태 -> 변수의 없다를 표현
 let none;           //  Undefined 만 나오는 아무것도 없는 상태 -> 변수만 선언하고 값이 비어있을 때 자동으로 들어가는 값
 
 
-// Test Push
+// Git Test push
