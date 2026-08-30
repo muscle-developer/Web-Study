@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, "Apple SD Gothic Neo", sans-serif;
+  background: #f5f6f8;
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
+main {
+  width: min(480px, 90vw);
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#todo-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #d0d3d9;
+  border-radius: 8px;
+}
+
+#todo-list {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+#todo-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #fff;
+  border: 1px solid #e3e5e9;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+#todo-list li.done span {
+  text-decoration: line-through;
+  color: #9aa0a8;
+}
+
+#todo-list li span {
+  flex: 1;
+}
+
+#todo-list li button {
+  border: none;
+  background: none;
+  color: #c0392b;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
